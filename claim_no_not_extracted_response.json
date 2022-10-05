@@ -1,0 +1,287 @@
+{
+  "statusCode": 200,
+  "RequestID": "9a7f903c-02f3-4aff-87fb-84cd82cd0321",
+  "AWSRegion": "ap-southeast-1",
+  "BucketName": "baem-uat-ai-output-uat-income-com-sg",
+  "TextractResults": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/",
+  "ComprehendJobOutDir": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/detect/jobs/",
+  "NER-ResponseFiles": [
+    [
+      "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/detect/jobs/208545754767-NER-28754de62c2de589837a53a11ff8b438/output/decomp/comprehend-output-1.xout",
+      "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/detect/jobs/208545754767-NER-28754de62c2de589837a53a11ff8b438/output/decomp/comprehend-output-2.xout",
+      "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/detect/jobs/208545754767-NER-28754de62c2de589837a53a11ff8b438/output/decomp/comprehend-output-3.xout"
+    ],
+    [
+      "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/detect/jobs/208545754767-NER-2383495edfd01f2754746b47f4e76b00/output/decomp/comprehend-output-1.xout",
+      "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/detect/jobs/208545754767-NER-2383495edfd01f2754746b47f4e76b00/output/decomp/comprehend-output-2.xout",
+      "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/detect/jobs/208545754767-NER-2383495edfd01f2754746b47f4e76b00/output/decomp/comprehend-output-3.xout"
+    ]
+  ],
+  "CLASSIFICATION-ResponseFiles": [
+    [
+      "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/detect/jobs/208545754767-CLN-88ba39b840a94026cb732510ea84bc08/output/decomp/comprehend-output-1.xout",
+      "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/detect/jobs/208545754767-CLN-88ba39b840a94026cb732510ea84bc08/output/decomp/comprehend-output-2.xout",
+      "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/detect/jobs/208545754767-CLN-88ba39b840a94026cb732510ea84bc08/output/decomp/comprehend-output-3.xout"
+    ]
+  ],
+  "NER-Response": [
+    {
+      "ID_CLAIMANT": [
+        {
+          "BeginOffset": 327,
+          "EndOffset": 336,
+          "Score": 0.9679008587506105,
+          "Text": "s3659626j",
+          "Type": "ID_CLAIMANT",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf-page-1-text.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf-page-1-response.json",
+          "_SourceFile": "0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf",
+          "_SourceFileId": "98d4d326-c6b1-47f8-8531-5a6918741096",
+          "_SourceFilePage": 1
+        }
+      ],
+      "NAME_CLAIMANT": [
+        {
+          "BeginOffset": 131,
+          "EndOffset": 139,
+          "Score": 0.9984558989899747,
+          "Text": "eric woo",
+          "Type": "NAME_CLAIMANT",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-text.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-response.json",
+          "_SourceFile": "f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf",
+          "_SourceFileId": "4386cd65-77f9-4382-a152-dc76b04e8a21",
+          "_SourceFilePage": 1
+        },
+        {
+          "BeginOffset": 256,
+          "EndOffset": 264,
+          "Score": 0.9791460260245768,
+          "Text": "eric woo",
+          "Type": "NAME_CLAIMANT",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-text.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-response.json",
+          "_SourceFile": "f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf",
+          "_SourceFileId": "4386cd65-77f9-4382-a152-dc76b04e8a21",
+          "_SourceFilePage": 1
+        }
+      ],
+      "NAME_SENDER": [
+        {
+          "BeginOffset": 391,
+          "EndOffset": 408,
+          "Score": 0.999528909369761,
+          "Text": "legal options llc",
+          "Type": "NAME_SENDER",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/16287e3f-fc26-4fa8-a402-a3c223974f29.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/16287e3f-fc26-4fa8-a402-a3c223974f29.txt",
+          "_SourceFile": "16287e3f-fc26-4fa8-a402-a3c223974f29.txt",
+          "_SourceFileId": "6894a79b-94b0-4196-8127-ee814ef6407f",
+          "_SourceFilePage": 1
+        },
+        {
+          "BeginOffset": 0,
+          "EndOffset": 17,
+          "Score": 0.9903180306142928,
+          "Text": "legal options llc",
+          "Type": "NAME_SENDER",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf-page-1-text.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf-page-1-response.json",
+          "_SourceFile": "0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf",
+          "_SourceFileId": "98d4d326-c6b1-47f8-8531-5a6918741096",
+          "_SourceFilePage": 1
+        },
+        {
+          "BeginOffset": 265,
+          "EndOffset": 284,
+          "Score": 0.9100932772379329,
+          "Text": "& legal options llc",
+          "Type": "NAME_SENDER",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-text.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-response.json",
+          "_SourceFile": "f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf",
+          "_SourceFileId": "4386cd65-77f9-4382-a152-dc76b04e8a21",
+          "_SourceFilePage": 1
+        },
+        {
+          "BeginOffset": 1105,
+          "EndOffset": 1122,
+          "Score": 0.7259647787223098,
+          "Text": "legal options llc",
+          "Type": "NAME_SENDER",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf-page-1-text.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf-page-1-response.json",
+          "_SourceFile": "0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf",
+          "_SourceFileId": "98d4d326-c6b1-47f8-8531-5a6918741096",
+          "_SourceFilePage": 1
+        }
+      ],
+      "UEN_SENDER": [
+        {
+          "BeginOffset": 435,
+          "EndOffset": 445,
+          "Score": 0.9992504973107137,
+          "Text": "201203825r",
+          "Type": "UEN_SENDER",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/16287e3f-fc26-4fa8-a402-a3c223974f29.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/16287e3f-fc26-4fa8-a402-a3c223974f29.txt",
+          "_SourceFile": "16287e3f-fc26-4fa8-a402-a3c223974f29.txt",
+          "_SourceFileId": "6894a79b-94b0-4196-8127-ee814ef6407f",
+          "_SourceFilePage": 1
+        },
+        {
+          "BeginOffset": 88,
+          "EndOffset": 98,
+          "Score": 0.9963358685923165,
+          "Text": "201203825r",
+          "Type": "UEN_SENDER",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf-page-1-text.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf-page-1-response.json",
+          "_SourceFile": "0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf",
+          "_SourceFileId": "98d4d326-c6b1-47f8-8531-5a6918741096",
+          "_SourceFilePage": 1
+        }
+      ]
+    },
+    {
+      "NAME_INSURER_3RD_PARTY": [
+        {
+          "BeginOffset": 1049,
+          "EndOffset": 1060,
+          "Score": 0.9999961853241109,
+          "Text": "ntuc income",
+          "Type": "NAME_INSURER_3RD_PARTY",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-text.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-response.json",
+          "_SourceFile": "f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf",
+          "_SourceFileId": "4386cd65-77f9-4382-a152-dc76b04e8a21",
+          "_SourceFilePage": 1
+        },
+        {
+          "BeginOffset": 648,
+          "EndOffset": 659,
+          "Score": 0.9983896616190158,
+          "Text": "ntuc income",
+          "Type": "NAME_INSURER_3RD_PARTY",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-text.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-response.json",
+          "_SourceFile": "f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf",
+          "_SourceFileId": "4386cd65-77f9-4382-a152-dc76b04e8a21",
+          "_SourceFilePage": 1
+        },
+        {
+          "BeginOffset": 185,
+          "EndOffset": 196,
+          "Score": 0.6278340096227675,
+          "Text": "ntuc income",
+          "Type": "NAME_INSURER_3RD_PARTY",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-text.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-response.json",
+          "_SourceFile": "f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf",
+          "_SourceFileId": "4386cd65-77f9-4382-a152-dc76b04e8a21",
+          "_SourceFilePage": 1
+        }
+      ],
+      "NAME_LAWYER_3RD_PARTY": [
+        {
+          "BeginOffset": 391,
+          "EndOffset": 408,
+          "Score": 0.9999992450088782,
+          "Text": "legal options llc",
+          "Type": "NAME_LAWYER_3RD_PARTY",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/16287e3f-fc26-4fa8-a402-a3c223974f29.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/16287e3f-fc26-4fa8-a402-a3c223974f29.txt",
+          "_SourceFile": "16287e3f-fc26-4fa8-a402-a3c223974f29.txt",
+          "_SourceFileId": "6894a79b-94b0-4196-8127-ee814ef6407f",
+          "_SourceFilePage": 1
+        },
+        {
+          "BeginOffset": 0,
+          "EndOffset": 17,
+          "Score": 0.9999981323945456,
+          "Text": "legal options llc",
+          "Type": "NAME_LAWYER_3RD_PARTY",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf-page-1-text.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf-page-1-response.json",
+          "_SourceFile": "0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf",
+          "_SourceFileId": "98d4d326-c6b1-47f8-8531-5a6918741096",
+          "_SourceFilePage": 1
+        },
+        {
+          "BeginOffset": 1105,
+          "EndOffset": 1122,
+          "Score": 0.9999941190581894,
+          "Text": "legal options llc",
+          "Type": "NAME_LAWYER_3RD_PARTY",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf-page-1-text.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf-page-1-response.json",
+          "_SourceFile": "0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf",
+          "_SourceFileId": "98d4d326-c6b1-47f8-8531-5a6918741096",
+          "_SourceFilePage": 1
+        },
+        {
+          "BeginOffset": 267,
+          "EndOffset": 284,
+          "Score": 0.9740736251025367,
+          "Text": "legal options llc",
+          "Type": "NAME_LAWYER_3RD_PARTY",
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-text.txt",
+          "_TextractJSONFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/json/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-response.json",
+          "_SourceFile": "f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf",
+          "_SourceFileId": "4386cd65-77f9-4382-a152-dc76b04e8a21",
+          "_SourceFilePage": 1
+        }
+      ]
+    }
+  ],
+  "CLASSIFICATION-Response": [
+    {
+      "4386cd65-77f9-4382-a152-dc76b04e8a21": [
+        {
+          "Name": "DV",
+          "Score": 0.9986,
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf-page-1-text.txt",
+          "_SourceFile": "f5fd4fe8-acc0-4bc7-88cb-59ce865164b8-pdf",
+          "_SourceFileId": "4386cd65-77f9-4382-a152-dc76b04e8a21",
+          "_SourceFilePage": 1
+        }
+      ],
+      "6894a79b-94b0-4196-8127-ee814ef6407f": [
+        {
+          "Name": "REMINDER",
+          "Score": 0.9828,
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/16287e3f-fc26-4fa8-a402-a3c223974f29.txt",
+          "_SourceFile": "16287e3f-fc26-4fa8-a402-a3c223974f29.txt",
+          "_SourceFileId": "6894a79b-94b0-4196-8127-ee814ef6407f",
+          "_SourceFilePage": 1
+        }
+      ],
+      "98d4d326-c6b1-47f8-8531-5a6918741096": [
+        {
+          "Name": "LOD",
+          "Score": 0.6978,
+          "_TextractOCRFile": "9a7f903c-02f3-4aff-87fb-84cd82cd0321/awsout/text/0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf-page-1-text.txt",
+          "_SourceFile": "0885dccd-a33c-453c-94ab-eed22a0cbe89-pdf",
+          "_SourceFileId": "98d4d326-c6b1-47f8-8531-5a6918741096",
+          "_SourceFilePage": 1
+        }
+      ]
+    }
+  ],
+  "SQSMessageID": "21c39bd5-d242-4597-9aac-b56b482a619b",
+  "extra": {
+    "instanceId": "c81a3745-35ae-4e09-bf0f-1ebccb6d8c51",
+    "entities": {
+      "category": "Registration"
+    },
+    "referenceId": "55393962-SVW",
+    "email": {
+      "recipientBccs": null,
+      "sender": "chinpoh.ong@income.com.sg",
+      "subject": "RETURN DV - Your Ref: MT/CA/TP/019/0822601-001/ST/PJT; Our Ref: 20-A20-10808-VL.jp.pw",
+      "recipients": "mtcl_uat@income.com.sg",
+      "recipientCcs": "",
+      "timestamp": "2022-10-04T03:11:40.000+00:00"
+    }
+  }
+}
