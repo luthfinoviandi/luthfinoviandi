@@ -6,7 +6,8 @@ LEFT JOIN (
 ) ins ON ins.business_key = mm.reference_id
 WHERE mm.CREATED_ON BETWEEN '2023-03-01 00:00:00' AND '2023-03-28 23:59:59';
 
-select md.id, 
+select 
+md.id, 
 md.usermailid, 
 md.reference_id,
 mm.reference_id processed_mail_reference_id,
@@ -14,15 +15,13 @@ md.subject duplicate_mail_subject,
 mm.subject processed_mail_subject, 
 md.internet_message_id duplicate_message_id, 
 mm.internet_message_id processed_message_id, 
-md.status ingestion_status, 
-md.created_by, 
+md.status ingestion_status,
 md.created_on, 
-md.updated_on, 
 md.attachments_count, 
 md.sender_address, 
-md.received_on, md.retry_count, 
-md.duplicate_message_id 
+md.received_on
 from ingestion.mailmessage md
 join ingestion.mailmessage mm on mm.id = md.duplicate_message_id
 where md.status = 'Duplicate'
 and md.subject = mm.subject
+and created_on between '2023-01-01' AND '2023-03-30' 
